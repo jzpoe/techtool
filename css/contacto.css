@@ -1,6 +1,6 @@
 body {
   color: #f8f9fa; 
-  background: url('alcanzar.png') center center no-repeat; /* Solo una imagen centrada */
+  background: url('../img/alcanzar.png') center center no-repeat; /* Solo una imagen centrada */
   background-size: 22%; /* Ajusta el tamaño de la imagen */
   background-color: #1a1a1a; /* Fondo oscuro si hay espacios */
 
