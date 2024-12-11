@@ -1,0 +1,33 @@
+#title {
+  text-align: center;
+  justify-content: center;
+  padding: 2%;
+  
+}
+
+.footer-custom {
+    background-color: #383636;
+  }
+  
+  .social-button {
+    background-color: #54456b;
+  }
+  
+  .footer-copyright {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  footer img {
+    width: 20px;
+    height: 20px;
+    
+  }
+
+  
+
+.row {
+  display: flex !important;
+  margin: 1% !important;
+  padding: 1% !important;
+}
+  

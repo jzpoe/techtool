@@ -1,0 +1,108 @@
+body {
+  color: #f8f9fa; 
+  background: url('/img/alcanzar.png') center center no-repeat; /* Solo una imagen centrada */
+  background-size: 22%; /* Ajusta el tamaño de la imagen */
+  background-color: #1a1a1a; /* Fondo oscuro si hay espacios */
+
+}
+
+.form-control:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 5px rgba(13, 110, 253, 0.5);
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.btn-primary:hover {
+  background-color: #084298;
+  border-color: #084298;
+}
+
+footer {
+  background-color: #0d6efd;
+  color: #f8f9fa;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer a {
+  color: #f8f9fa;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+#title {
+  text-align: center;
+  justify-content: center;
+  padding: 2%;
+  
+}
+
+.footer-custom {
+    background-color: #383636;
+  }
+  
+  .social-button {
+    background-color: #54456b;
+  }
+  
+  .footer-copyright {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  footer img {
+    width: 20px;
+    height: 20px;
+    
+  }
+
+  
+
+.row {
+  display: flex !important;
+  margin: 1% !important;
+  padding: 1% !important;
+}
+  
+form {
+  background-color: transparent;  /* Fondo transparente */
+  border: 2px solid #007bff;  /* Bordes azul */
+  border-radius: 8px;  /* Bordes redondeados */
+  padding: 20px;  /* Espaciado interno */
+}
+
+
+/* Estilo para los campos de entrada */
+.form-control {
+  background-color: transparent;  /* Fondo transparente en los campos */
+  border: 1px solid #007bff;  /* Bordes azules */
+  color: #fff;  /* Color del texto blanco */
+}
+
+/* Estilo para los campos de entrada cuando el usuario escribe */
+.form-control:focus {
+  border-color: #0056b3;  /* Bordes más oscuros al enfocar */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);  /* Sombra sutil */
+}
+
+/* Estilo para el botón */
+.btn-primary {
+  background-color: #007bff;  /* Color del botón azul */
+  border-color: #007bff;  /* Borde azul */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;  /* Color al pasar el ratón */
+  border-color: #0056b3;  /* Borde al pasar el ratón */
+}
+
+.my-5 {
+  margin-top: 2rem !important;
+  margin-bottom: 3rem !important;
+}
